@@ -1,0 +1,24 @@
+{
+  "name": "LuckyStar",
+  "version": "1.0.0",
+  "private": false,
+  "dependencies": {
+    "async": "0.2.5",
+    "crc": "3.4.0",
+    "generic-pool": "2.4.0",
+    "memwatch": "0.2.2",
+    "mt19937": "0.0.4",
+    "mysql": "2.10.2",
+    "pomelo": "~1.2.1",
+    "pomelo-loader": "0.0.6",
+    "pomelo-logger": "0.1.7",
+    "pomelo-base-plugin": "1.0.0",
+    "pomelo-status-plugin": "0.0.6",
+    "pomelo-globalchannel-plugin": "0.0.7",
+    "pomelo-sync-plugin": "0.0.2",
+    "pomelo-http-plugin": "0.0.25",
+    "redis": "2.6.0-2",
+    "iconv-lite": "0.4.13",
+    "excel-export": "0.5.1"
+  }
+}

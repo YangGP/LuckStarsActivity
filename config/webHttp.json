@@ -1,0 +1,34 @@
+{
+  "注释":{
+    "useSSL": "是否开启ssl",
+    "keyFile": "server的私钥的位置",
+    "certFile": "https数字签名的位置",
+    "host": "浏览器访问ip",
+    "port": "浏览器访问端口",
+    "views": "webserver模板的配置地址",
+    "public": "webserver静态资源地址"
+  },
+
+  "development": {
+    "webHttp": {
+      "useSSL": false,
+      "keyFile": "config/https/server.key",
+      "certFile": "config/https/server.crt",
+      "host": "127.0.0.1",
+      "port": 3601,
+      "views": "app/servers/webHttp/views",
+      "public": "app/servers/webHttp/public"
+    }
+  },
+  "production": {
+    "webHttp": {
+      "useSSL": false,
+      "keyFile": "config/https/server.key",
+      "certFile": "config/https/server.crt",
+      "host": "127.0.0.1",
+      "port": 3601,
+      "views": "app/servers/webHttp/views",
+      "public": "app/servers/webHttp/public"
+    }
+  }
+}

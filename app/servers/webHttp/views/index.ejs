@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>幸运之星--春节返利活动</title>
+  <link rel="stylesheet" href="/css/mui.min.css">
+  <link rel="stylesheet" href="/css/index.css">
+  <script src="/js/auto-size.js"></script>
+</head>
+<body>
+  <div id="container" class="container">
+    <div id="active-end" class="active-end hidden"><div><img src="imgs/end.png" alt=""></div></div>
+    <div class="accumulate-money">
+      <p>当前累计：<span id="totalPay">￥0</span></p>
+      <p id="head-end" class="hidden">活动已结束</p>
+    </div>
+    <div id="recharge" class="mui-scroll-wrapper recharge">
+      <div id="recharge-mask" class="mui-scroll recharge-mask">
+        <div data-id="1" class="recharge-card">
+          <small>￥</small>
+          <strong>3</strong>
+          <p>立得368金币</p>
+        </div>
+        <div data-id="2" class="recharge-card">
+          <small>￥</small>
+          <strong>8</strong>
+          <p>立得888金币</p>
+        </div>
+        <div data-id="3" class="recharge-card">
+          <small>￥</small>
+          <strong>18</strong>
+          <p>立得1928金币</p>
+        </div>
+        <div data-id="4" class="recharge-card">
+          <small>￥</small>
+          <strong>58</strong>
+          <p>立得6268金币</p>
+        </div>
+        <div data-id="5" class="recharge-card">
+          <small>￥</small>
+          <strong>98</strong>
+          <p>立得1.08万金币</p>
+        </div>
+        <div data-id="6" class="recharge-card">
+          <small>￥</small>
+          <strong>188</strong>
+          <p>立得2.08万金币</p>
+        </div>
+        <div class="tips-box">
+          <div class="tips">
+            <p>活动持续时间：2月14日0时~2月24日24时</p>
+            <p>活动期间每日都可以享受一次各个档次返利</p>
+            <p>活动期间所有充值金额都计入累计充值</p>
+            <p>活动详细规则请查看幸运之星活动公告</p>
+            <p>本活动最终解释权归幸运之星所有</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="schedule" class="mui-scroll-wrapper schedule visibility">
+      <div id="schedule-mask" class="mui-scroll schedule-mask">
+        <img src="/imgs/schedule.png" alt="阶梯">
+        <div style="height:1.4rem"></div>
+        <div class="schedule-box">
+          <img class="get-awrad hidden" src="/imgs/get.png" alt="领取">
+          <img class="complete-award hidden" src="/imgs/complete.png" alt="已领取">
+        </div>
+        <div class="schedule-box">
+          <img class="get-awrad hidden" src="/imgs/get.png" alt="领取">
+          <img class="complete-award hidden" src="/imgs/complete.png" alt="已领取">
+        </div>
+        <div class="schedule-box">
+          <img class="get-awrad hidden" src="/imgs/get.png" alt="领取">
+          <img class="complete-award hidden" src="/imgs/complete.png" alt="已领取">
+        </div>
+        <div class="schedule-box">
+          <img class="get-awrad hidden" src="/imgs/get.png" alt="领取">
+          <img class="complete-award hidden" src="/imgs/complete.png" alt="已领取">
+        </div>
+        <div class="schedule-box">
+          <img class="get-awrad hidden" src="/imgs/get.png" alt="领取">
+          <img class="complete-award hidden" src="/imgs/complete.png" alt="已领取">
+        </div>
+        <div class="schedule-box">
+          <img class="get-awrad hidden" src="/imgs/get.png" alt="领取">
+          <img class="complete-award hidden" src="/imgs/complete.png" alt="已领取">
+        </div>
+        <div class="schedule-box">
+          <img class="get-awrad" src="/imgs/get.png" alt="领取">
+          <img class="complete-award hidden" src="/imgs/complete.png" alt="已领取">
+        </div>
+        <div class="tips">
+          <p>活动持续时间：2月14日0时~2月24日24时</p>
+          <p>充值任意金额即可获得百元现金红包抽奖</p>
+          <p>机会一次，累计充值满1000元即可获得</p>
+          <p>超级大奖“礼品商城任你挑”抽奖机会一次</p>
+          <p>本活动最终解释权归幸运之星所有</p>
+        </div>
+      </div>
+    </div>
+    <div id="up-arrow" class="up-arrow">
+      <img src="imgs/up.gif" alt="可向下滑动">
+    </div>
+    <div class="support"></div>
+    <footer>
+      <div id="return" class="nav-btn">
+        <p>充值返利</p>
+      </div>
+      <div id="total" class="nav-btn checked-btn">
+        <img id="award-available" src="/imgs/可领取.png" alt="可领取">
+        <p>累计大奖</p>
+      </div>
+    </footer>
+  </div>
+  
+  <script src="/js/jquery.min.js"></script>
+  <script>
+    var jq = $.noConflict();
+  </script>
+  <script src="/js/mui.min.js"></script>
+  <script src="/js/popups.js"></script>
+  <script src="/js/lanscape.js"></script>
+  <script>
+    var landscape = new landscape({
+      pic: 'imgs/landscape.png',
+      mode: 'portrait',
+      prefix: 'Shine',
+      txt: '为了更好的体验，请将手机竖过来',
+      txtColor: '#ffd40a'
+    });
+  </script>
+  <script src="/js/index1.js"></script>
+
+</body>
+</html>

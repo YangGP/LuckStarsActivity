@@ -1,0 +1,22 @@
+{
+    "development":{
+      "webHttp": [
+        {"id": "webHttp", "host": "127.0.0.1", "port": 1200}
+      ],
+      "active": [
+        {"id": "active-server-1", "host": "127.0.0.1", "port": 2000},
+        {"id": "active-server-2", "host": "127.0.0.1", "port": 2001},
+        {"id": "active-server-3", "host": "127.0.0.1", "port": 2002}
+      ]
+    },
+    "production":{
+      "webHttp": [
+        {"id": "webHttp", "host": "127.0.0.1", "port": 1200}
+      ],
+      "active": [
+        {"id": "active-server-1", "host": "127.0.0.1", "port": 2000},
+        {"id": "active-server-2", "host": "127.0.0.1", "port": 2001},
+        {"id": "active-server-3", "host": "127.0.0.1", "port": 2002}
+      ]
+    }
+}
